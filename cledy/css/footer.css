@@ -1,0 +1,54 @@
+footer {
+
+          background-color: black;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 12px 80px;
+
+}
+
+footer  .div-termos {
+          padding: 6px 18px;
+          background-color:transparent;
+          transition: 0.2s ease-in;
+          border-radius: 30px;
+ }
+
+footer  .div-termos:hover {
+         
+          background-color: rgba(255, 255, 255, 0.158);
+          transition: 0.2s ease-in;
+          border-radius: 30px;
+ }
+
+footer .div-termos a,
+a {
+          text-decoration: none;
+          color: white;
+
+}
+
+
+
+footer a .p-div-parceiro {
+          border-radius: 30px;
+          padding: 6px 18px;
+          background-color: rgba(255, 255, 255, 0.158);
+         
+          transition: 0.2s ease-in;
+}
+
+footer a .p-div-parceiro:hover {
+         background-color: rgba(72, 69, 250, 0.822);
+         transition: 0.2s ease-in;
+         
+}
+@media (max-width:600px) {
+          footer {
+
+                   display: none;
+          
+          }
+         
+      }  

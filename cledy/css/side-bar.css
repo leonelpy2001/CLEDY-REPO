@@ -1,0 +1,99 @@
+.div-main {
+
+       background-color: transparent;
+
+
+}
+
+.div-main .side-bar {
+       padding: 10px 80px;
+       display: flex;
+       justify-content: space-between;
+       background-color: white;
+       gap: 20px;
+       position: sticky;
+       top: 0;
+       z-index: 10;
+
+}
+
+.div-main .side-bar ul {
+       display: flex;
+
+       gap: 20px;
+       list-style: none;
+
+}
+
+
+.div-main .side-bar ul li {
+       border: 1px solid rgb(255, 255, 255);
+       border-radius: 20px;
+       cursor: pointer;
+       gap: 8px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+       font-size: 18px;
+       opacity: 0.4;
+}
+
+
+.div-main .side-bar ul li:hover {
+       opacity: 1;
+}
+
+
+
+.div-main .side-bar ul li span {
+       font-weight: 600;
+
+
+}
+
+
+.div-main .side-bar ul li i {
+
+       font-size: 22px;
+
+}
+
+.div-main .side-bar ul li .Pedido-process {
+       width: 8px;
+       height: 8px;
+       background-color: rgba(1, 22, 116, 0.603);
+       border-radius: 50%;
+
+
+}
+
+.div-main .side-bar .seguindo {
+       background-color: rgba(0, 0, 0, 0.192);
+       padding: 5px 18px;
+       border-radius: 20px;
+       color: rgb(0, 0, 0);
+       font-weight: 800;
+
+
+
+
+
+}
+
+/* section main*/
+
+
+
+.div-main .side-bar .seguindo {
+       background-color: rgba(0, 0, 0, 0.192);
+       padding: 5px 18px;
+       border-radius: 20px;
+       color: rgb(0, 0, 0);
+       font-weight: 800;
+
+
+
+
+
+}
